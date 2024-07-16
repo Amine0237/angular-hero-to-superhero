@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-hero-to-superhero';
+  // to create custom directive: $ ng g d name-of-directive
+  number = 21;
+  // isClicked = false;
+
+  // onClick(){
+  //   this.isClicked = true;
+  // }
 }
